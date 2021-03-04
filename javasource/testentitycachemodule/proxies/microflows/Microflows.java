@@ -19,6 +19,16 @@ public class Microflows
 		Map<java.lang.String, Object> params = new HashMap<>();
 		Core.microflowCall("TestEntityCacheModule.AT_Get").withParams(params).execute(context);
 	}
+	public static void aT_GetOrCreate(IContext context)
+	{
+		Map<java.lang.String, Object> params = new HashMap<>();
+		Core.microflowCall("TestEntityCacheModule.AT_GetOrCreate").withParams(params).execute(context);
+	}
+	public static void aT_Remove(IContext context)
+	{
+		Map<java.lang.String, Object> params = new HashMap<>();
+		Core.microflowCall("TestEntityCacheModule.AT_Remove").withParams(params).execute(context);
+	}
 	public static void aT_Set(IContext context)
 	{
 		Map<java.lang.String, Object> params = new HashMap<>();

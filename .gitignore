@@ -1,3 +1,5 @@
 /.mendix-cache/
 /.svn
 /deployment
+/Entity_cache_module.launch
+/EntityCacheApp.mpr.lock
