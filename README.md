@@ -1,6 +1,6 @@
 # Entity Cache module
 
-When you have microflows that do a lot of retrieves of the same entity you can use this module to reduce the amount of database queries by storing them in the cache. The **Entity Cache module** support multiple entities but only stores one per type (like 1 systemsettings objec, 1 emailsettings object etc). 
+When you have microflows that do a lot of retrieves of the same entity you can use this module to reduce the number of database queries by storing them in the cache. The **Entity Cache module** supports multiple entities but only stores one per type (like 1 systemsettings object, 1 emailsettings object etc). 
 
 ## Performance
 
